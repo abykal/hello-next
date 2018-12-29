@@ -15,7 +15,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/about": [
+    "/blog": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/show": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
