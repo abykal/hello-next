@@ -15,6 +15,9 @@ const Show = (props) => (
       ))}
     </ul>
     <style jsx>{`
+      h1, a {
+        font-family: "Arial";
+      }
       li {
         list-style: none;
         margin: 5px 0;
@@ -23,7 +26,6 @@ const Show = (props) => (
       a {
         text-decoration: none;
         color: blue;
-        font-family: "Arial";
       }
 
       a:hover {

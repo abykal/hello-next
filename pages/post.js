@@ -17,6 +17,9 @@ const Post = (props) => (
 
       p {
         color: #566573;
+        width: 80%;
+        float: right;
+        padding: 10px;
       }
 
       ul {
@@ -28,13 +31,9 @@ const Post = (props) => (
         margin: 5px 0;
       }
 
-      a {
-        text-decoration: none;
-        color: blue;
-      }
-
-      a:hover {
-        opacity: 0.6;
+      img {
+        overflow: hidden;
+        padding: 10px;
       }
     `}</style>
   </Layout>
