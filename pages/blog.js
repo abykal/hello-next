@@ -17,6 +17,9 @@ And here's the content.
      `}/>
    </div>
    <style jsx global>{`
+    h1 {
+        font-family: "Arial";
+      }
      .markdown {
        font-family: 'Arial';
      }
