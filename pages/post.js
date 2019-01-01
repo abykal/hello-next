@@ -45,6 +45,7 @@ Post.getInitialProps = async function (context) {
   const show = await res.json()
 
   console.log(`Fetched show: ${show.name}`)
+  console.log(`Fetched show: ${show}`)
 
   return { show }
 }
