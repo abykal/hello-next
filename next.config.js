@@ -8,5 +8,13 @@ module.exports = {
         '/b/deploy-nextjs': { page: '/blog', query: { title: 'Deploy apps with Zeit' } },
         '/b/exporting-pages': { page: '/blog', query: { title: 'Learn to Export HTML Pages' } }
       }
+    },
+    webpack: (config) => {
+      config.module.rules.push({
+          test: /\.md$/,
+          use: 'raw-loader'
+      });
+
+      return config
     }
   }
