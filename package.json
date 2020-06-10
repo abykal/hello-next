@@ -1,28 +1,16 @@
 {
-  "name": "hello-next",
-  "version": "1.0.0",
-  "description": "Learning Nextjs 7",
-  "main": "index.js",
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p 8000",
-    "export": "next export"
+    "start": "next start"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4",
-    "gray-matter": "^4.0.1",
-    "isomorphic-unfetch": "^3.0.0",
-    "next": "^7.0.2",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-markdown": "^4.0.4"
-  },
-  "devDependencies": {
-    "raw-loader": "^1.0.0"
+    "classnames": "^2.2.6",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   }
 }
